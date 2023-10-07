@@ -1,7 +1,7 @@
 <x-guest-layout>
     <div class="card card-outline card-primary">
         <div class="card-header text-center">
-            <a href="{{ route('home') }}" class="h1"><b>Travel</b>Agency</a>
+            <a href="{{ route('accueil') }}" class="h1"><b>Travel</b>Agency</a>
         </div>
         <div class="card-body">
 

@@ -24,6 +24,13 @@ Route::middleware(['auth'])->prefix('admin')->group(function () {
     Route::get('/dashboard', [Controllers\DashboardController::class, 'index'])->name('dashboard');
     Route::resource('users', Controllers\UserController::class);
     Route::resource('roles', Controllers\RoleController::class);
+
+    /** Parameters */
+    Route::resource('apropos', Controllers\ParameterController::class);
+    Route::resource('services', Controllers\ParameterController::class);
+    Route::resource('destinations', Controllers\ParameterController::class);
+    Route::resource('processes', Controllers\ParameterController::class);
+    /**------------*/
 });
 
 require __DIR__.'/auth.php';

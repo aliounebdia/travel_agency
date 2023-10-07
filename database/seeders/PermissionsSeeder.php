@@ -33,11 +33,7 @@ class PermissionsSeeder extends Seeder
         // Permissions / CRUD
         $permissions = [
             'utilisateurs',
-//            'techniciens',
-//            'équipes',
             'rôles',
-//            'véhicules',
-//            'équipements',
         ];
         $perm = [];
 
