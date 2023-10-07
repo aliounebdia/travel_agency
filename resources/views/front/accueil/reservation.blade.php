@@ -6,9 +6,10 @@
                 <div class="col-md-6 text-white">
                     <h6 class="text-white text-uppercase">Réservation</h6>
 
-                    <h1 class="text-white mb-4">Online Booking</h1>
+                    <h1 class="text-white mb-4">Prise de rendez-vous</h1>
 
                     <p class="mb-4">
+                        Prenez rendez-vous en ligne.
                         Laissez nous vos informations, nous vous recontacterons dans les meilleurs délais.
                     </p>
 
@@ -19,7 +20,7 @@
                     {{--<a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a>--}}
                 </div>
                 <div class="col-md-6">
-                    <h1 class="text-white mb-4">Contact</h1>
+                    <h1 class="text-white mb-4">Informations</h1>
 
                     <form>
                         <div class="row g-3">
